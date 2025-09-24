@@ -1,7 +1,7 @@
 {
   "Versions": {
     "launcher_version": "1.0.2",
-    "xdelta_version": "1.0.1",
+    "xdelta_version": "1.0.2",
     "gclient_version": "1.0.1",
     "gserver_version": "1.0.0"
   }
