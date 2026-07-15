@@ -1,0 +1,12 @@
+# Paquetes NuGet: se regeneran con "nuget restore" (ver DEPENDENCIES.md)
+*/
+
+# Libs custom o dificiles de conseguir: estas SI se suben
+!sevenzip_dll/
+!sevenzip_dll/**
+
+!LibVLC_CUTTED/
+!LibVLC_CUTTED/**
+
+!xdelta.native.3.0.11.1/
+!xdelta.native.3.0.11.1/**

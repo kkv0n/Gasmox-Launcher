@@ -1,0 +1,16 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <XDeltaBundleBinaries Condition=" '$(XDeltaBundleBinaries)' == '' ">False</XDeltaBundleBinaries>
+    <XDeltaToolPath>$(MSBuildThisFileDirectory)$(HostOS)</XDeltaToolPath>
+    <XDeltaToolExe Condition=" '$(HostOS)' == 'Windows' ">xdelta3.exe</XDeltaToolExe>
+    <XDeltaToolExe Condition=" '$(HostOS)' != 'Windows' ">xdelta3</XDeltaToolExe>
+  </PropertyGroup>
+  <ItemGroup>
+    <_XDeltaNativeBinaries Include="$(MSBuildThisFileDirectory)**\xdelta3" />
+    <_XDeltaNativeBinaries Include="$(MSBuildThisFileDirectory)**\xdelta3.exe" />
+    <None Include="@(_XDeltaNativeBinaries)" Condition=" '$(XDeltaBundleBinaries)' == 'True' ">
+      <Link>%(RecursiveDir)%(FileName)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

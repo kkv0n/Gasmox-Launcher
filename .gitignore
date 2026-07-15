@@ -1,0 +1,27 @@
+# ===== Visual Studio =====
+.vs/
+obj/
+bin/
+*.user
+*.suo
+*.cache
+
+# ===== Salida de build =====
+# Output completo del launcher: todo se genera al compilar (exe, dlls, post-build)
+# o en runtime (settings, roms del usuario, descargas). Los assets fuente viven
+# en Launcher_themes/ y third_party/, no aqui.
+GasmoxianLauncher/
+
+# Proyectos que compilan a su propia carpeta (OutputPath = .\)
+Projects/duck_dll/duck_dll.dll
+Projects/duck_dll/duck_dll.pdb
+Projects/GUpdater/GUpdater.exe
+Projects/GUpdater/GUpdater.pdb
+Projects/GUpdater/GUpdater.exe.config
+
+# ===== third_party =====
+# Las reglas de third_party viven en third_party/.gitignore:
+# paquetes NuGet ignorados (se restauran), libs custom incluidas.
+
+# ===== runtime =====
+logs.txt

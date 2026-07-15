@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLauncher", "Projects\GLauncher\GLauncher.csproj", "{1B911C60-4532-4B7A-A1DE-A9594DA8C123}"
+	ProjectSection(ProjectDependencies) = postProject
+		{038EB657-F2B1-4482-8F01-42692ACA075E} = {038EB657-F2B1-4482-8F01-42692ACA075E}
+		{4336EAF3-3A7B-45D6-A6DB-626F50C1F7F9} = {4336EAF3-3A7B-45D6-A6DB-626F50C1F7F9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUpdater", "Projects\GUpdater\GUpdater.csproj", "{038EB657-F2B1-4482-8F01-42692ACA075E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{62D59D98-D7C1-47CB-B88D-080D334A6E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "duck_dll", "Projects\duck_dll\duck_dll.csproj", "{4336EAF3-3A7B-45D6-A6DB-626F50C1F7F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B911C60-4532-4B7A-A1DE-A9594DA8C123}.Debug|x64.ActiveCfg = Debug|x64
+		{1B911C60-4532-4B7A-A1DE-A9594DA8C123}.Debug|x64.Build.0 = Debug|x64
+		{1B911C60-4532-4B7A-A1DE-A9594DA8C123}.Release|x64.ActiveCfg = Release|x64
+		{1B911C60-4532-4B7A-A1DE-A9594DA8C123}.Release|x64.Build.0 = Release|x64
+		{038EB657-F2B1-4482-8F01-42692ACA075E}.Debug|x64.ActiveCfg = Debug|x64
+		{038EB657-F2B1-4482-8F01-42692ACA075E}.Debug|x64.Build.0 = Debug|x64
+		{038EB657-F2B1-4482-8F01-42692ACA075E}.Release|x64.ActiveCfg = Release|x64
+		{038EB657-F2B1-4482-8F01-42692ACA075E}.Release|x64.Build.0 = Release|x64
+		{4336EAF3-3A7B-45D6-A6DB-626F50C1F7F9}.Debug|x64.ActiveCfg = Debug|x64
+		{4336EAF3-3A7B-45D6-A6DB-626F50C1F7F9}.Debug|x64.Build.0 = Debug|x64
+		{4336EAF3-3A7B-45D6-A6DB-626F50C1F7F9}.Release|x64.ActiveCfg = Release|x64
+		{4336EAF3-3A7B-45D6-A6DB-626F50C1F7F9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B911C60-4532-4B7A-A1DE-A9594DA8C123} = {62D59D98-D7C1-47CB-B88D-080D334A6E0E}
+		{038EB657-F2B1-4482-8F01-42692ACA075E} = {62D59D98-D7C1-47CB-B88D-080D334A6E0E}
+		{4336EAF3-3A7B-45D6-A6DB-626F50C1F7F9} = {62D59D98-D7C1-47CB-B88D-080D334A6E0E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF680375-42B3-44CA-9E62-82BFD4774F05}
+	EndGlobalSection
+EndGlobal
