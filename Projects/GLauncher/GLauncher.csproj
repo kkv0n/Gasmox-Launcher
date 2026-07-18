@@ -229,7 +229,7 @@
 xcopy "$(SolutionDir)third_party\sevenzip_dll\7z.dll" "$(OutputDir)data\tools\" /y /i
 xcopy "$(SolutionDir)third_party\LibVLC_CUTTED\libvlc" "$(OutputDir)data\libvlc" /s /e /y /i
 xcopy "$(SolutionDir)Launcher_themes" "$(OutputDir)data\themes" /s /e /y /i
-xcopy "$(SolutionDir)Projects\duck_dll\duck_dll.dll" "$(OutputDir)data\tools\" /y /i
+xcopy "$(SolutionDir)Projects\duck_dll\duck_dll.dll" "$(OutputDir)." /y /i
 xcopy "$(SolutionDir)Projects\GUpdater\GUpdater.exe" "$(OutputDir)data\tools\" /y /i</PostBuildEvent>
   </PropertyGroup>
 </Project>

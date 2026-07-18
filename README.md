@@ -47,5 +47,5 @@ in [DEPENDENCIES.md](DEPENDENCIES.md).
 
 ## Releasing
 
-If you touched `duck_dll`, remember the compiled `duck_dll.dll` must ship next
-to `GLauncher.exe` in the update package — the launcher loads it from there.
+The build already drops `duck_dll.dll` next to `GLauncher.exe` (that's where the
+launcher loads it from) — just make sure it goes into the update package too.
